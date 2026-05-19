@@ -73,12 +73,13 @@ cv2.equalizeHist()
 
 Histograms are widely used in:
 
-Image enhancement
+
 i)    Medical image analysis
 ii)   Computer vision
 iii)  Object detection
 iv)   Image segmentation
 v)    Contrast adjustment
+vi)   Image enhancement
 
 
 
