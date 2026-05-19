@@ -17,7 +17,9 @@ iv)  Dynamic range of pixel values
 
 By analyzing the histogram, we can determine whether an image is too dark, too bright, or has low contrast.
 
-<b><u>Histogram Calculation Using OpenCV</b></u>
+
+
+<b><u> HISTOGRAM CALCULATION USING OpenCV</b></u>
 
 In OpenCV, the histogram of an image can be calculated using the following function:
 cv2.calcHist(images, channels, mask, histSize, ranges)
@@ -36,7 +38,7 @@ histSize --> Number of bins used in the histogram. Normally [256] for grayscale 
 ranges --> Range of pixel intensity values. Usually [0,256].
 
 
-<b> <u> Gray Scale Image </u></b>
+<b> <u> GRAY SCALE IMAGE </u></b>
 
 A grayscale image contains only intensity information and does not contain color information. Each pixel in a grayscale image represents a brightness value ranging from:
 
@@ -65,7 +67,9 @@ iii)  Spreads pixel intensities more uniformly
 In OpenCV, histogram equalization can be performed using:
 cv2.equalizeHist()
 
-<b><u>Applications of Histogram</b></u>
+
+
+<b><u>APPLICATION OF HISTOGRAM</b></u>
 
 Histograms are widely used in:
 
@@ -75,6 +79,7 @@ ii)   Computer vision
 iii)  Object detection
 iv)   Image segmentation
 v)    Contrast adjustment
+
 
 
 <b><u> CONCLUSION </b></u>
