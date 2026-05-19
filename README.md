@@ -78,4 +78,5 @@ v)    Contrast adjustment
 
 
 <b><u> CONCLUSION </b></u>
+
 Histograms provide an effective way to analyze the intensity distribution of an image. By studying the histogram, we can better understand the brightness and contrast properties of an image. Histogram Equalization further improves image quality by enhancing contrast and distributing intensity values more evenly across the image.
